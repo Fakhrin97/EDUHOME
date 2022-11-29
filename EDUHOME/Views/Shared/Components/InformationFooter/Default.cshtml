@@ -1,0 +1,12 @@
+﻿@model List<Information>
+<div class="col-md-3 col-sm-6 col-xs-12">
+    <div class="single-widget">
+        <h3>information</h3>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="@item?.Url">@item?.Name</a></li>
+            }
+        </ul>
+    </div>
+</div>

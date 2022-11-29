@@ -1,0 +1,12 @@
+﻿@model List<UsefulLink>
+<div class="col-md-2 col-sm-6 col-xs-12">
+    <div class="single-widget">
+        <h3>useful links</h3>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="@item.Url">@item.Name</a></li>
+            }
+        </ul>
+    </div>
+</div>

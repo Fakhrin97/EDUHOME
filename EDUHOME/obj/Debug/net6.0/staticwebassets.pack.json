@@ -1,0 +1,1121 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EDUHOME.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EDUHOME.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\js\\data-table.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\js\\documentation.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\js\\file-upload.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\js\\template.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\components\\plugin-overrides\\_data-tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\admin\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\et-line-icon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\et-line-icon.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\meanmenu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\reset.css",
+      "PackagePath": "staticwebassets\\assets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\et-line.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\et-line.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\et-line.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\et-line.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\et-line.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\et-line.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\et-line.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\et-line.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\et-lined41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\et-lined41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\22288cc5-5ae2-4c54-a8a8-1a02e469c7f8-blog5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\22288cc5-5ae2-4c54-a8a8-1a02e469c7f8-blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\2b4e1563-73ee-4ebd-ba74-1d588401c5b8-blog4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\2b4e1563-73ee-4ebd-ba74-1d588401c5b8-blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\45be13c4-8a35-49e6-886f-a45fb93ede2d-blog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\45be13c4-8a35-49e6-886f-a45fb93ede2d-blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\58ce38cd-4a15-47d9-82a9-6553369d63cd-blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\58ce38cd-4a15-47d9-82a9-6553369d63cd-blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\5dfa26b9-9ca5-4bbb-be59-5b68702a5749-blog6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\5dfa26b9-9ca5-4bbb-be59-5b68702a5749-blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\ac87c050-141c-4ecd-b685-fb56786f2ca5-blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\ac87c050-141c-4ecd-b685-fb56786f2ca5-blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\blog\\fa68088f-935b-4fd4-a800-1b21f3c68d7e-blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\fa68088f-935b-4fd4-a800-1b21f3c68d7e-blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\1122dc53-b0a1-4b69-9b9e-28ff64999741-course8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\1122dc53-b0a1-4b69-9b9e-28ff64999741-course8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\17775cf3-2ec7-4919-b6e3-d8d85c4e9cb2-course6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\17775cf3-2ec7-4919-b6e3-d8d85c4e9cb2-course6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\1e87b70c-c438-4db4-b786-f14ffea0f8bc-course1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\1e87b70c-c438-4db4-b786-f14ffea0f8bc-course1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\1f57d0a0-1f68-47e0-8128-2adc79d3d408-course6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\1f57d0a0-1f68-47e0-8128-2adc79d3d408-course6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\232ff33a-aad3-4e8f-b184-7853df35833d-course3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\232ff33a-aad3-4e8f-b184-7853df35833d-course3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\27f2134e-c83b-44d4-b204-fe4658245202-course7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\27f2134e-c83b-44d4-b204-fe4658245202-course7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\52581784-879b-4563-ab74-30da62344bba-course5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\52581784-879b-4563-ab74-30da62344bba-course5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\547a4785-44f8-4623-a24d-ed4f63afe035-course3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\547a4785-44f8-4623-a24d-ed4f63afe035-course3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\561e5fac-a3fb-4bc5-800b-a7af45be84de-course4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\561e5fac-a3fb-4bc5-800b-a7af45be84de-course4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\6439412b-4410-4ab4-85ba-b6bfc175b380-course2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\6439412b-4410-4ab4-85ba-b6bfc175b380-course2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\af96cdd5-0c98-4be0-8f11-e072d105e437-course9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\af96cdd5-0c98-4be0-8f11-e072d105e437-course9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\course\\f0d85381-7085-4b69-9d33-aaea28607c26-course8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\course\\f0d85381-7085-4b69-9d33-aaea28607c26-course8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\footerlogo\\b8a8e5d3-e124-49e1-b227-bc21701a4c7c-footer-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\footerlogo\\b8a8e5d3-e124-49e1-b227-bc21701a4c7c-footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\slider\\00283a75-689a-449d-852b-eab95955b401-slider3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\00283a75-689a-449d-852b-eab95955b401-slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\slider\\228a56fd-0dbf-4c20-9906-3f05297c082c-teacher3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\228a56fd-0dbf-4c20-9906-3f05297c082c-teacher3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\slider\\4bfd36b3-3ee7-474a-b2d3-29183d615909-slider1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\4bfd36b3-3ee7-474a-b2d3-29183d615909-slider1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\slider\\793b4531-097e-4bf1-b6b8-f332cd41f947-logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\793b4531-097e-4bf1-b6b8-f332cd41f947-logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\slider\\7cf62cca-0f5e-46b2-951e-d6f7fa6a2d15-slider2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider\\7cf62cca-0f5e-46b2-951e-d6f7fa6a2d15-slider2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\21e217c0-fabd-438c-9376-cfb5b76382aa-teacher1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\teacher\\21e217c0-fabd-438c-9376-cfb5b76382aa-teacher1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\36c90775-85a4-4cc2-b787-e49905a7d70e-teacher1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\teacher\\36c90775-85a4-4cc2-b787-e49905a7d70e-teacher1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\c7c8baf3-823e-470a-9b0b-3da95136297c-teacher1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\teacher\\c7c8baf3-823e-470a-9b0b-3da95136297c-teacher1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\about\\about.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\banner\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog-detail.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-detail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\blog\\blog9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\choose\\choose-bd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\choose\\choose-bd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\choose\\choose.png",
+      "PackagePath": "staticwebassets\\assets\\img\\choose\\choose.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\contact\\contact1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\contact1.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\contact\\contact2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\contact2.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\contact\\contact3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\contact3.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\course9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\course9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\course\\courses-details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\courses-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event-details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\event9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\event9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\speaker1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\speaker1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\event\\speaker2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\speaker2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\footer\\footer1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\footer1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\footer\\footer2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\footer2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\footer\\footer3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\footer3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\footer\\footer4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\footer\\footer4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\icon\\section.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\section.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\icon\\section1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\icon\\section1.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\logo\\footer-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\footer-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\logo\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\notice\\video.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\notice\\video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\post\\post1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\post\\post2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\post\\post3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\post\\post3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher-details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\teacher\\teacher9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\teacher9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\testimonial\\testimonial-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\testimonial-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\img\\testimonial\\testimonial.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial\\testimonial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\jquery.mb.YTPlayer.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mb.YTPlayer.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\jquery.meanmenu.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.meanmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\script 1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script 1.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\vendor\\jquery-1.12.0.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-1.12.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EDUHOME.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EDUHOME.props",
+      "PackagePath": "build\\EDUHOME.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EDUHOME.props",
+      "PackagePath": "buildMultiTargeting\\EDUHOME.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EDUHOME.props",
+      "PackagePath": "buildTransitive\\EDUHOME.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

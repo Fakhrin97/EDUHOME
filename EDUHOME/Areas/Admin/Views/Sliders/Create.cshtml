@@ -1,0 +1,41 @@
+﻿@model SliderCreateViewModel
+
+<div class="row col-sm-6">
+    <div class="col-sm-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title"> Create Slider</h4>
+                <form class="forms-sample" method="post" asp-action="Create" enctype="multipart/form-data">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Mainheader">Mainheader</label>
+                        <input asp-for="Mainheader" class="form-control" placeholder="Main Header">
+                        <span asp-validation-for="Mainheader" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Header">Header</label>
+                        <input asp-for="Header" class="form-control" placeholder="Header" id="Header">
+                        <span asp-validation-for="Header" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Content">Content</label>
+                        <input asp-for="Content" class="form-control" placeholder="Content" id="Content">
+                        <span asp-validation-for="Content" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" >
+                        <label asp-for="Image">Choose image</label>
+                        <input asp-for="Image" class="form-control" placeholder="Sekil secin" accept="image/*">
+                        <span asp-validation-for="Image" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a class="btn btn-light" asp-action="Index">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
+}

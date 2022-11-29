@@ -1,0 +1,9 @@
+﻿@model List<FooterSocialMedia>
+<div class="footer-social">
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li><a href="@item.Link"><i class="@item.Icon"></i></a></li>
+        }        
+    </ul>
+</div>

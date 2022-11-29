@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Mirrored from demo.devitems.com/eduhome/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jun 2020 19:44:02 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Eduhome - Educational HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/animate.css">
+    <link rel="stylesheet" href="~/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/css/et-line-icon.css">
+    <link rel="stylesheet" href="~/assets/css/reset.css">
+    <link rel="stylesheet" href="~/assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/assets/css/material-design-iconic-font.min.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="~/assets/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/responsive.css">
+    <script src="~/assets/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Header Area Start -->
+    <header class="top">
+        <div class="header-area header-sticky fixed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="logo">
+                            <a href="index.html"><img src="~/assets/img/logo/logo.png" alt="eduhome" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-12">
+                        <div class="content-wrapper one">
+                            <!-- Main Menu Start -->
+                            <div class="main-menu one text-right">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a asp-controller="home" asp-action="index">Home</a>
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li>
+                                            <a asp-controller="Courses" asp-action="index">courses</a>
+                                        </li>
+                                        <li>
+                                            <a href="event.html">event</a>
+                                        </li>
+                                        <li class="hidden-sm">
+                                            <a asp-controller="teachers" asp-action="index">teacher</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="blogs" asp-action="index">blog</a>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="#">Buy Now</a>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="mobile-menu hidden-lg hidden-md one"></div>
+                            <!-- Main Menu End -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+    @RenderBody()
+    <!-- Footer Start -->
+    <footer class="footer-area">
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-widget pr-60">
+                            @await Component.InvokeAsync("FooterLogo")
+                            @await Component.InvokeAsync("FooterSocialMedia")
+                            
+                        </div>
+                    </div>
+                    @await Component.InvokeAsync("InformationFooter")
+                    @await Component.InvokeAsync("UserfulLink")
+                    @await Component.InvokeAsync("Contact")
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>Copyright © <a href="#" target="_blank">HasTech</a> 2017. All Right Reserved By Hastech.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="~/assets/js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/jquery.meanmenu.js"></script>
+    <script src="~/assets/js/jquery.magnific-popup.js"></script>
+    <script src="~/assets/js/ajax-mail.js"></script>
+    <script src="~/assets/js/owl.carousel.min.js"></script>
+    <script src="~/assets/js/jquery.mb.YTPlayer.js"></script>
+    <script src="~/assets/js/jquery.nicescroll.min.js"></script>
+    <script src="~/assets/js/plugins.js"></script>
+    <script src="~/assets/js/main.js" asp-append-version="true"></script>
+    <script src="~/assets/js/script 1.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", false);
+
+</body>
+
+<!-- Mirrored from demo.devitems.com/eduhome/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 21 Jun 2020 19:44:03 GMT -->
+</html>

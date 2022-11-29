@@ -1,0 +1,6 @@
+﻿@model List<BlogViewModel>
+
+@foreach (var item in Model)
+{
+    <partial name="_BlogItemPartial" model="item" />
+}

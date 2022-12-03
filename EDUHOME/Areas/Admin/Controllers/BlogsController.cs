@@ -22,7 +22,7 @@ namespace EDUHOME.Areas.Admin.Controllers
             var blogs = await _dbContext.Blogs
                 .ToListAsync();
 
-            return View(blogs);           
+            return View(blogs);
         }
 
         public IActionResult Create()
@@ -38,13 +38,13 @@ namespace EDUHOME.Areas.Admin.Controllers
 
             if (!model.Image.IsImage())
             {
-                ModelState.AddModelError("", "Shekil Secmelisiz");
+                ModelState.AddModelError("Image", "Shekil Secmelisiz");
                 return View();
             }
 
             if (!model.Image.IsAllowedSize(10))
             {
-                ModelState.AddModelError("", "Shekilin olcusu 10 mbdan az omalidi");
+                ModelState.AddModelError("Image", "Shekilin olcusu 10 mbdan az omalidi");
                 return View();
             }
 
@@ -53,34 +53,31 @@ namespace EDUHOME.Areas.Admin.Controllers
             await _dbContext.Blogs.AddAsync(new Blog
             {
                 Title = model.Title,
-                Content= model.Content,
-                Reply =model.Reply,
-                CreatedAt = DateTime.Now,   
-                ImageUrl = unicalName, 
+                Content = model.Content,
+                Reply = model.Reply,
+                CreatedAt = DateTime.Now,
+                ImageUrl = unicalName,
             });
 
             await _dbContext.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index)); 
+            return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Update(int? id)
+        public async Task<IActionResult> Update(int id)
         {
-
-            if (id == null) return BadRequest();
-
-            var blog = await _dbContext.Blogs
-                .Where(blog => blog.Id == id)
+            var existBlog = await _dbContext.Blogs
+                .Where(existBlog => existBlog.Id == id)
                 .FirstOrDefaultAsync();
 
-            if (blog == null) return BadRequest();
+            if (existBlog == null) return BadRequest();
 
             var model = new BlogUpdateViewModel
             {
-                Title = blog.Title,
-                Content = blog.Content, 
-                Reply=blog.Reply,
-                ImageUrl= blog.ImageUrl,
+                Title = existBlog.Title,
+                Content = existBlog.Content,
+                Reply = existBlog.Reply,
+                ImageUrl = existBlog.ImageUrl,
             };
 
             return View(model);
@@ -88,13 +85,13 @@ namespace EDUHOME.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(int? id , BlogUpdateViewModel model)
+        public async Task<IActionResult> Update(int id, BlogUpdateViewModel model)
         {
-            if (id == null) return BadRequest();
-
             var existBlog = await _dbContext.Blogs
-                .Where(blog => blog.Id == id)
-                .FirstOrDefaultAsync();
+                      .Where(blog => blog.Id == id)
+                      .FirstOrDefaultAsync();
+
+            if (existBlog == null) return BadRequest();
 
             var viewModel = new BlogUpdateViewModel
             {
@@ -131,8 +128,8 @@ namespace EDUHOME.Areas.Admin.Controllers
             }
 
             existBlog.Title = model.Title;
-            existBlog.Content = model.Content;  
-            existBlog.Reply = model.Reply;  
+            existBlog.Content = model.Content;
+            existBlog.Reply = model.Reply;
 
             await _dbContext.SaveChangesAsync();
 

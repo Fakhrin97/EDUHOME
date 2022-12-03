@@ -15,10 +15,15 @@ namespace EDUHOME.DAL
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Information> Informations { get; set; }
         public DbSet<UsefulLink> UsefulLinks { get; set; }
-        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<FooterContact> FooterContacts { get; set; }
         public DbSet<FooterLogo> FooterLogo { get; set; }
         public DbSet<FooterSocialMedia> FooterSocialMedias { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Course> Courses { get; set; }
+        public DbSet<HeaderLogo> HeaderLogos { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<ContactMessage> ContactMessages { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<EventTeacher> EventTeachers { get; set; }
     }
 }

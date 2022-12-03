@@ -1,8 +1,11 @@
-﻿using EDUHOME.Areas.Admin.Models;
+﻿using Allup.Data;
+using EDUHOME.Areas.Admin.Data;
+using EDUHOME.Areas.Admin.Models;
 using EDUHOME.DAL;
 using EDUHOME.DAL.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 namespace EDUHOME.Areas.Admin.Controllers
 {
@@ -14,12 +17,13 @@ namespace EDUHOME.Areas.Admin.Controllers
         {
             _dbContext = dbContext;
         }
+
         public async Task<IActionResult> Index()
         {
-            var contacts = await _dbContext.Contacts
-                .ToListAsync();
+            var model = await _dbContext.Contacts
+                .FirstOrDefaultAsync();
 
-            return View(contacts);
+            return View(model);
         }
 
         public IActionResult Create()
@@ -31,15 +35,61 @@ namespace EDUHOME.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ContactCreateViewModel model)
         {
-            if (!ModelState.IsValid) return View();
+            if (!ModelState.IsValid)
+                return View();
+
+            if (!model.TelIcon.IsImage())
+            {
+                ModelState.AddModelError("TelIcon", "Shekil Secmelisiz");
+                return View();
+            }
+
+            if (!model.TelIcon.IsAllowedSize(10))
+            {
+                ModelState.AddModelError("TelIcon", "Shekilin olcusu 10 mbdan az omalidi");
+                return View();
+            }
+
+            var unicalNameTel = await model.TelIcon.GenerateFile(Constants.ContactPath);
+
+            if (!model.WebsiteIcon.IsImage())
+            {
+                ModelState.AddModelError("WebsiteIcon", "Shekil Secmelisiz");
+                return View();
+            }
+
+            if (!model.WebsiteIcon.IsAllowedSize(10))
+            {
+                ModelState.AddModelError("WebsiteIcon", "Shekilin olcusu 10 mbdan az omalidi");
+                return View();
+            }
+
+            var unicalNameWebsite = await model.TelIcon.GenerateFile(Constants.ContactPath);
+
+            if (!model.AddressIcon.IsImage())
+            {
+                ModelState.AddModelError("AddressIcon", "Shekil Secmelisiz");
+                return View();
+            }
+
+            if (!model.WebsiteIcon.IsAllowedSize(10))
+            {
+                ModelState.AddModelError("AddressIcon", "Shekilin olcusu 10 mbdan az omalidi");
+                return View();
+            }
+
+            var unicalNameAddress = await model.AddressIcon.GenerateFile(Constants.ContactPath);
+
 
             await _dbContext.Contacts.AddAsync(new Contact
             {
-                Adress = model.Adress,
-                Number1 = model.Number1,
-                Number2 = model.Number2,
-                Email = model.Email,
-                Website = model.Website
+                Address = model.Address,
+                AddressImageUrl = unicalNameAddress,
+                Website = model.Website,
+                WebsiteImageUrl = unicalNameWebsite,
+                ContactNumber = model.Number,
+                ContactNumberImageUrl = unicalNameTel,
+                Message = model.Message,
             });
 
             await _dbContext.SaveChangesAsync();
@@ -47,20 +97,25 @@ namespace EDUHOME.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public async Task<IActionResult> Update(int id)
+        public async Task<IActionResult> Update(int? id)
         {
+            if (id == null) return BadRequest();
+
             var contact = await _dbContext.Contacts
                 .Where(contact => contact.Id == id)
                 .FirstOrDefaultAsync();
 
+            if (contact == null) return BadRequest();
+
             var model = new ContactUpdateViewModel
             {
-                Id = id,
-                Number1 = contact.Number1,
-                Number2 = contact.Number2,
-                Email = contact.Email,
+                Address = contact.Address,
+                AddressImageUrl = contact.AddressImageUrl,
                 Website = contact.Website,
-                Adress = contact.Adress,
+                WebsiteImageUrl = contact.WebsiteImageUrl,
+                Number = contact.ContactNumber,
+                TelImageUrl = contact.ContactNumberImageUrl,
+                Message = contact.Message,
             };
 
             return View(model);
@@ -68,19 +123,101 @@ namespace EDUHOME.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(int id, ContactUpdateViewModel model)
+        public async Task<IActionResult> Update(int? id, ContactUpdateViewModel model)
         {
-            if (!ModelState.IsValid) return View();
+            if (id == null) return BadRequest();
 
             var existContact = await _dbContext.Contacts
-                 .Where(contact => contact.Id == id)
-                 .FirstOrDefaultAsync();         
+                .Where(contact => contact.Id == id)
+                .FirstOrDefaultAsync();
 
-            existContact.Adress=model.Adress;
-            existContact.Number1=model.Number1;
-            existContact.Number2=model.Number2;
-            existContact.Email=model.Email;
-            existContact.Website=model.Website;
+            if (existContact == null) return BadRequest();
+
+            var viewModel = new ContactUpdateViewModel
+            {
+                AddressImageUrl = model.AddressImageUrl,
+                TelImageUrl = model.TelImageUrl,
+                WebsiteImageUrl = model.WebsiteImageUrl,
+            };
+
+            if (!ModelState.IsValid) return View(viewModel);
+
+            if (model.AddressIcon != null )
+            {
+                if (!model.AddressIcon.IsImage())
+                {
+                    ModelState.AddModelError("", "Shekil Secmelisiz");
+                    return View(viewModel);
+                }
+
+                if (!model.AddressIcon.IsAllowedSize(10))
+                {
+                    ModelState.AddModelError("", "Shekilin olcusu 10 mbdan az omalidi");
+                    return View(viewModel);
+                }
+
+                var path = Path.Combine(Constants.RootPath, "assets", "images", "contact", existContact.AddressImageUrl);
+
+                if (System.IO.File.Exists(path))
+                    System.IO.File.Delete(path);
+
+                var unicalName = await model.AddressIcon.GenerateFile(Constants.ContactPath);
+
+                existContact.AddressImageUrl = unicalName;
+            }
+
+            if (model.TelIcon != null)
+            {
+                if (!model.TelIcon.IsImage())
+                {
+                    ModelState.AddModelError("Image", "Shekil Secmelisiz");
+                    return View(viewModel);
+                }
+
+                if (!model.TelIcon.IsAllowedSize(10))
+                {
+                    ModelState.AddModelError("Image", "Shekilin olcusu 10 mbdan az omalidi");
+                    return View(viewModel);
+                }
+
+                var path = Path.Combine(Constants.RootPath, "assets", "images", "contact", existContact.ContactNumberImageUrl);
+
+                if (System.IO.File.Exists(path))
+                    System.IO.File.Delete(path);
+
+                var unicalName = await model.TelIcon.GenerateFile(Constants.ContactPath);
+
+                existContact.ContactNumberImageUrl = unicalName;
+            }
+
+            if (model.WebsiteIcon != null)
+            {
+                if (!model.WebsiteIcon.IsImage())
+                {
+                    ModelState.AddModelError("Image", "Shekil Secmelisiz");
+                    return View(viewModel);
+                }
+
+                if (!model.WebsiteIcon.IsAllowedSize(10))
+                {
+                    ModelState.AddModelError("Image", "Shekilin olcusu 10 mbdan az omalidi");
+                    return View(viewModel);
+                }
+
+                var path = Path.Combine(Constants.RootPath, "assets", "images", "contact", existContact.WebsiteImageUrl);
+
+                if (System.IO.File.Exists(path))
+                    System.IO.File.Delete(path);
+
+                var unicalName = await model.WebsiteIcon.GenerateFile(Constants.ContactPath);
+
+                existContact.WebsiteImageUrl = unicalName;
+            }
+
+            existContact.Message = model.Message;
+            existContact.Address = model.Address;
+            existContact.Website = model.Website;
+            existContact.ContactNumber = model.Number;
 
             await _dbContext.SaveChangesAsync();
 
@@ -89,8 +226,10 @@ namespace EDUHOME.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(int? id)
         {
+            if (id == null) return BadRequest();
+
             var existContact = await _dbContext.Contacts
                 .Where(contact => contact.Id == id)
                 .FirstOrDefaultAsync();
@@ -98,6 +237,19 @@ namespace EDUHOME.Areas.Admin.Controllers
             if (existContact == null) return BadRequest();
 
             _dbContext.Contacts.Remove(existContact);
+
+            var pathAdress = Path.Combine(Constants.RootPath, "assets", "images", "contact", existContact.AddressImageUrl);
+            var pathNumber = Path.Combine(Constants.RootPath, "assets", "images", "contact", existContact.ContactNumberImageUrl);
+            var pathWebsite = Path.Combine(Constants.RootPath, "assets", "images", "contact", existContact.WebsiteImageUrl);
+
+            if (System.IO.File.Exists(pathAdress))
+                System.IO.File.Delete(pathAdress);
+
+            if (System.IO.File.Exists(pathNumber))
+                System.IO.File.Delete(pathNumber);
+
+            if (System.IO.File.Exists(pathWebsite))
+                System.IO.File.Delete(pathWebsite);
 
             await _dbContext.SaveChangesAsync();
 

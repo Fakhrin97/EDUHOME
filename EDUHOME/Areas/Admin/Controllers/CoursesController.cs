@@ -58,23 +58,31 @@ namespace EDUHOME.Areas.Admin.Controllers
 
             categories.ForEach(category => categoriesSelectedListItem.Add(new SelectListItem(category.Name, category.Id.ToString())));
 
-            var viewMmodel = new CourseCreateViewModel
+            var viewModel = new CourseCreateViewModel
             {
                 Categories = categoriesSelectedListItem,
             };
 
-            if (ModelState.IsValid) return View(viewMmodel);
+            if (!ModelState.IsValid) return View(viewModel);
+
+            var ecistCategoy = categories.Where(category => category.Name == model.Name);
+
+            if (ecistCategoy != null)
+            {
+                ModelState.AddModelError("", "Bu Add Artiq Kurs Movcuddur");
+                return View(viewModel);
+            }
 
             if (!model.Image.IsImage())
             {
                 ModelState.AddModelError("Image", "Shekil Secmelisiz");
-                return View(viewMmodel);
+                return View(viewModel);
             }
 
             if (!model.Image.IsAllowedSize(10))
             {
                 ModelState.AddModelError("Image", "Shekilin olcusu 10 mbdan az omalidi");
-                return View(viewMmodel);
+                return View(viewModel);
             }
 
             var unicalName = await model.Image.GenerateFile(Constants.CoursePath);
@@ -145,7 +153,6 @@ namespace EDUHOME.Areas.Admin.Controllers
             return View(model);
         }
 
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(int? id, CourseUpdateViewModel model)
@@ -169,9 +176,18 @@ namespace EDUHOME.Areas.Admin.Controllers
             var viewModel = new CourseUpdateViewModel
             {
                 Categories = categoriesSelectedListItem,
+                ImageUrl = existCourse.ImageUrl,
             };
 
             if (!ModelState.IsValid) return View(viewModel);
+
+            var theSameNAmeCourse = await _dbContext.Courses.Where(course => course.Name == model.Name).FirstOrDefaultAsync();
+
+            if (theSameNAmeCourse != null)
+            {
+                ModelState.AddModelError("", "Bu Add Artiq Kurs Movcuddur");
+                return View(viewModel);
+            }
 
             if (model.Image != null)
             {
@@ -210,14 +226,13 @@ namespace EDUHOME.Areas.Admin.Controllers
             existCourse.Language = model.Language;
             existCourse.StudentsCount = model.StudentsCount;
             existCourse.Assesments = model.Assesments;
-            existCourse.Fee = model.Fee;          
+            existCourse.Fee = model.Fee;
             existCourse.CategoryId = model.CategoryId;
 
             await _dbContext.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index));
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]

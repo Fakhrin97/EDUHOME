@@ -58,6 +58,8 @@ namespace EDUHOME.Areas.Admin.Controllers
                 .Where(info => info.Id == id)
                 .FirstOrDefaultAsync();
 
+            if (category == null) return BadRequest();
+
             var model = new CategoryUpdateViewModel
             {
                 Id = id,
@@ -77,6 +79,8 @@ namespace EDUHOME.Areas.Admin.Controllers
                  .Where(category => category.Id == id)
                  .FirstOrDefaultAsync();
 
+            if (existCategory == null) return BadRequest();
+
             var result = await _dbContext.Categories
                 .Where(category => category.Name == model.Name)
                 .FirstOrDefaultAsync();
@@ -90,7 +94,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 }
             }
 
-            existCategory.Name = model.Name;          
+            existCategory.Name = model.Name;
 
             await _dbContext.SaveChangesAsync();
 

@@ -1,37 +1,47 @@
-﻿@model ContactUpdateViewModel
+﻿@model ContactCreateViewModel
 
 <div class="row col-sm-6">
     <div class="col-sm-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title"> Create Contact</h4>
-                <form class="forms-sample" method="post" asp-action="Create">
+                <h4 class="card-title">Create Contact</h4>
+                <form class="forms-sample" method="post" asp-controller="Contacts" asp-action="Create" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="Adress">Adress</label>
-                        <input asp-for="Adress" class="form-control" placeholder="Adress">
-                        <span asp-validation-for="Adress" class="text-danger"></span>
+                        <label asp-for="Message">Message</label>
+                        <input asp-for="Message" class="form-control" placeholder="Message">
+                        <span asp-validation-for="Message" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Number1">Number-1</label>
-                        <input asp-for="Number1" class="form-control" placeholder="Number-1">
-                        <span asp-validation-for="Number1" class="text-danger"></span>
+                        <label asp-for="Address">Address</label>
+                        <input asp-for="Address" class="form-control" placeholder="Address">
+                        <span asp-validation-for="Address" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Number2">Number-2</label>
-                        <input asp-for="Number2" class="form-control" placeholder="Number-2">
-                        <span asp-validation-for="Number2" class="text-danger"></span>
+                        <label asp-for="AddressIcon">Choose Address icon</label>
+                        <input asp-for="AddressIcon" class="form-control" placeholder="Sekil secin" accept="image/*">
+                        <span asp-validation-for="AddressIcon" class="text-danger"></span>
                     </div>
                     <div class="form-group">
-                        <label asp-for="Email">Email</label>
-                        <input asp-for="Email" class="form-control" placeholder="Email">
-                        <span asp-validation-for="Email" class="text-danger"></span>
+                        <label asp-for="Number">Tel Number</label>
+                        <input asp-for="Number" class="form-control" placeholder="Tel Number">
+                        <span asp-validation-for="Number" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TelIcon">Choose Tel icon</label>
+                        <input asp-for="TelIcon" class="form-control" placeholder="Sekil secin" accept="image/*">
+                        <span asp-validation-for="TelIcon" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                         <label asp-for="Website">Website</label>
                         <input asp-for="Website" class="form-control" placeholder="Website">
                         <span asp-validation-for="Website" class="text-danger"></span>
-                    </div>                    
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="WebsiteIcon">Choose Website icon</label>
+                        <input asp-for="WebsiteIcon" class="form-control" placeholder="Sekil secin" accept="image/*">
+                        <span asp-validation-for="WebsiteIcon" class="text-danger"></span>
+                    </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <a class="btn btn-light" asp-action="Index">Cancel</a>
                 </form>
@@ -44,6 +54,3 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js" integrity="sha512-xq+Vm8jC94ynOikewaQXMEkJIOBp7iArs3IhFWSWdRT3Pq8wFz46p+ZDFAR7kHnSFf+zUv52B3prRYnbDRdgog==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 }
-
-
-

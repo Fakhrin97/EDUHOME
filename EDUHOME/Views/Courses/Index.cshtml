@@ -26,14 +26,14 @@
                 </div>
                 <div class="course-form">
                     <form id="search" action="#">
-                        <input type="search" placeholder="Search..." name="search" />
-                        <button type="submit">search</button>
+                        <input id="search-corses" type="search" placeholder="Search..." name="search" />
+                        <div id="product-list"></div>
+                        
                     </form>
                 </div>
             </div>
         </div>
         <div class="row">
-
             @foreach (var item in Model)
             {
                 <partial name="_CourseItemPartial" model="item" />

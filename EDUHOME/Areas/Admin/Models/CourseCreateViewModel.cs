@@ -20,7 +20,7 @@ namespace EDUHOME.Areas.Admin.Models
         public string Assesments { get; set; }
         public int Fee { get; set; }
         public IFormFile Image { get; set; }
-        public List<SelectListItem> Categories { get; set; }
+        public List<SelectListItem>? Categories { get; set; }
         public int CategoryId { get; set; }
     }
 }

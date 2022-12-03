@@ -22,7 +22,10 @@ namespace EDUHOME
             Constants.TeacherPath = Path.Combine(Constants.RootPath, "assets", "images", "teacher");
             Constants.BlogPath = Path.Combine(Constants.RootPath, "assets", "images", "blog");
             Constants.FooterLogoPath = Path.Combine(Constants.RootPath, "assets", "images", "footerlogo");
+            Constants.HeaderLogoPath = Path.Combine(Constants.RootPath, "assets", "images", "headerlogo");
             Constants.CoursePath = Path.Combine(Constants.RootPath, "assets", "images", "course");
+            Constants.ContactPath = Path.Combine(Constants.RootPath, "assets", "images", "contact");
+            Constants.EventPath = Path.Combine(Constants.RootPath, "assets", "images", "event");
 
             builder.Services
                 .AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration

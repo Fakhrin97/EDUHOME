@@ -20,10 +20,7 @@
 <div class="blog-area pt-150 pb-150">
     <div class="container">
         <div class="row" id="prduct-list">
-            @foreach (var item in Model)
-            {
-                <partial name="_BlogItemPartial" model="item" />
-            }
+                <partial name="_BlogListPartial" model="Model" />
         </div>
         <input type="hidden" value="@ViewBag.productcount" id="prduct-count" />
        <div style="text-align:center">

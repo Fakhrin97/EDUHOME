@@ -78,5 +78,26 @@ namespace EDUHOME.Controllers
       
             return View(model);
         }
+
+        public async Task<IActionResult> Search(string searchText)
+        {
+            if (string.IsNullOrEmpty(searchText))
+                return NoContent();
+
+            var courses = await _dbContext.Courses
+                .Where(course=>!course.IsDeleted && course.Name.ToLower().Contains(searchText.ToLower()))
+                .ToListAsync();
+
+            var model = new List<CourseViewModel>();
+
+            courses.ForEach(course => model.Add(new CourseViewModel
+            {
+                Id = course.Id,
+                Name = course.Name,
+                ImageUrl = course.ImageUrl,
+            }));           
+
+            return PartialView("_CourseListPartial", courses);
+        }
     }
 }

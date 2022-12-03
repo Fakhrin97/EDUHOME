@@ -37,9 +37,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="logo">
-                            <a href="index.html"><img src="~/assets/img/logo/logo.png" alt="eduhome" /></a>
-                        </div>
+                        @await Component.InvokeAsync("HeaderLogo")
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-12">
                         <div class="content-wrapper one">
@@ -48,23 +46,21 @@
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a asp-controller="home" asp-action="index">Home</a>
-                                        </li>
-                                        <li><a href="about.html">About</a></li>
+                                            <a asp-controller="Home" asp-action="index">Home</a>
+                                        </li>                                      
                                         <li>
                                             <a asp-controller="Courses" asp-action="index">courses</a>
                                         </li>
                                         <li>
-                                            <a href="event.html">event</a>
+                                            <a asp-controller="Events" asp-action="index">event</a>
                                         </li>
                                         <li class="hidden-sm">
-                                            <a asp-controller="teachers" asp-action="index">teacher</a>
+                                            <a asp-controller="Teachers" asp-action="index">teacher</a>
                                         </li>
                                         <li>
-                                            <a asp-controller="blogs" asp-action="index">blog</a>
+                                            <a asp-controller="Blogs" asp-action="index">blog</a>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="#">Buy Now</a>
+                                        <li><a asp-controller="Contacts" asp-action="index">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -92,7 +88,7 @@
                     </div>
                     @await Component.InvokeAsync("InformationFooter")
                     @await Component.InvokeAsync("UserfulLink")
-                    @await Component.InvokeAsync("Contact")
+                    @await Component.InvokeAsync("FooterContact")
                 </div>
             </div>
         </div>

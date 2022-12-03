@@ -7,7 +7,10 @@
         public static string TeacherPath;
         public static string BlogPath;
         public static string FooterLogoPath;
+        public static string HeaderLogoPath;
         public static string CoursePath;
+        public static string ContactPath;
+        public static string EventPath;
 
         public const string AdminRole = "Admin";
         

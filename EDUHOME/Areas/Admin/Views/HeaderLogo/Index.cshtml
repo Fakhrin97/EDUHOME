@@ -1,0 +1,44 @@
+﻿@model List<HeaderLogo>
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Header Logo Table</h4>
+                @if (Model.Count == 0)
+                {
+                    <a class="btn btn-primary" asp-action="create">Create</a>
+                }
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Logo</th>
+                             
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img style="width:100px;height:100px" src="~/assets/images/headerlogo/@item.ImageUrl">
+                                    </td>                                   
+                                    <td>
+                                        <a class="btn btn-success" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                                        <div style="display:inline-block">
+                                            <form class="forms-sample" method="post" asp-action="Delete" asp-route-id="@item.Id">
+                                                <button type="submit" class="btn btn-danger mr-2">Delete</button>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

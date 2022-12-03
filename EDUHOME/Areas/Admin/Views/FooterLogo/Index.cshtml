@@ -26,7 +26,6 @@
                                     </td>
                                     <td>@(item.LogoTitle.Length >40 ? item.LogoTitle.Substring(0,40): item.LogoTitle)</td>
                                     <td>
-                                        <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Details</a>
                                         <a class="btn btn-success" asp-action="Update" asp-route-id="@item.Id">Update</a>
                                         <div style="display:inline-block">
                                             <form class="forms-sample" method="post" asp-action="Delete" asp-route-id="@item.Id">

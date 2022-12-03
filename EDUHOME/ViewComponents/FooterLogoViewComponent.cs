@@ -16,6 +16,7 @@ namespace EDUHOME.ViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var footerLogo = await _dbContext.FooterLogo
+                .Where(x => !x.IsDeleted)
                 .FirstOrDefaultAsync();
 
             return View(footerLogo);

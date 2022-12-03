@@ -22,6 +22,7 @@ namespace EDUHOME.DAL.Entities
         public int Innovation { get; set; }
         public int Communication { get; set; }
         public string Imageurl { get; set; }
+        public List<EventTeacher> EventTeachers { get; set; }
 
     }
 }

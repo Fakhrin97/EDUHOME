@@ -5,18 +5,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EDUHOME.ViewComponents
 {
-    public class ContactViewComponent : ViewComponent
+    public class FooterContactViewComponent : ViewComponent
     {
         private readonly AppDbContext _dbContext;
 
-        public ContactViewComponent(AppDbContext dbContext)
+        public FooterContactViewComponent(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var contact = await _dbContext.Contacts
+            var contact = await _dbContext.FooterContacts
+                .Where(x => !x.IsDeleted)
                 .FirstOrDefaultAsync();
 
             return View(contact);

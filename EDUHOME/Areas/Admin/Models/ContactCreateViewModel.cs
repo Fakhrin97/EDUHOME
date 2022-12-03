@@ -1,15 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace EDUHOME.Areas.Admin.Models
+﻿namespace EDUHOME.Areas.Admin.Models
 {
     public class ContactCreateViewModel
     {
-        public string Adress { get; set; }
-        public string Number1 { get; set; }
-        public string? Number2 { get; set; }
-
-        [EmailAddress]
-        public string Email { get; set; }
+        public string Message {  get; set; }    
+        public string Address { get; set; }   
+        public IFormFile AddressIcon { get; set; }
+        public string Number { get; set; }
+        public IFormFile TelIcon { get; set; }
         public string Website { get; set; }
+        public IFormFile WebsiteIcon { get; set; } 
     }
 }

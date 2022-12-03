@@ -15,6 +15,7 @@ namespace EDUHOME.ViewComponents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var footerSocialMedia = await _dbContext.FooterSocialMedias
+                .Where(x => !x.IsDeleted)
                 .ToListAsync();
 
             return View(footerSocialMedia);

@@ -1,16 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace EDUHOME.DAL.Entities
+﻿namespace EDUHOME.DAL.Entities
 {
     public class Contact : Entity
     {
-        public string Adress {  get; set; } 
-        public string Number1 {  get; set; } 
-        public string? Number2 {  get; set; }
-
-        [EmailAddress]
-        public string Email {  get; set; } 
-        public string Website {  get; set; } 
-
+        public string Message { get; set; }
+        public string Address { get; set; } 
+        public string AddressImageUrl { get; set; }
+        public string ContactNumber { get; set; }
+        public string ContactNumberImageUrl { get; set; }
+        public string Website { get; set; }
+        public string WebsiteImageUrl { get; set; }
     }
 }

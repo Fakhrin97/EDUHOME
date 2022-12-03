@@ -42,19 +42,19 @@ namespace EDUHOME.DAL
 
             }
 
-            var existUser = await _userManager.FindByNameAsync(_adminUser.UserName);
+            var existUser = await _userManager.FindByNameAsync( _adminUser.UserName );
 
             if (existUser != null) return;
 
-            var userCrateResult = await _userManager.CreateAsync(new User
+            var userCrateResult = await _userManager.CreateAsync( new User
             {
                 UserName = _adminUser.UserName,
                 FristName = _adminUser.FristName,
                 LastName = _adminUser.LastName,
                 Email = _adminUser.Email,
-            },_adminUser.Password);
+            }, _adminUser.Password);
 
-            if (!userCrateResult.Succeeded)
+            if ( !userCrateResult.Succeeded )
             {
                 foreach (var error in userCrateResult.Errors)
                 {
@@ -63,9 +63,9 @@ namespace EDUHOME.DAL
             }
             else
             {
-                var existCratedUser = await _userManager.FindByNameAsync(_adminUser.UserName);
+                var existCratedUser = await _userManager.FindByNameAsync( _adminUser.UserName );
 
-                await _userManager.AddToRoleAsync(existCratedUser, Constants.AdminRole);
+                await _userManager.AddToRoleAsync( existCratedUser , Constants.AdminRole );
             }
         }
     }

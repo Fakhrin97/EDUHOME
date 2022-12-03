@@ -16,6 +16,7 @@ namespace EDUHOME.ViewCompanents
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var links = await _dbContext.UsefulLinks
+                .Where(x => !x.IsDeleted)
                 .ToListAsync();
 
             return View(links);

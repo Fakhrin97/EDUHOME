@@ -16,9 +16,12 @@ namespace EDUHOME.Controllers
             _signInManager = signInManager;
         }
 
-        public IActionResult Login()
+        public IActionResult Login(string returnUrl)
         {
-            return View();
+            return View(new LoginViewModel
+            {
+                RetunUrl = returnUrl,
+            });
         }
 
         [HttpPost]
@@ -31,11 +34,11 @@ namespace EDUHOME.Controllers
 
             if (existUser == null)
             {
-                ModelState.AddModelError( "" , "username yalnishdir");
+                ModelState.AddModelError("", "username yalnishdir");
                 return View();
             }
 
-            var result = await _signInManager.PasswordSignInAsync(existUser, model.Password,model.RemeberMe,true);
+            var result = await _signInManager.PasswordSignInAsync(existUser, model.Password, model.RemeberMe, true);
 
             if (!result.Succeeded)
             {
@@ -43,7 +46,11 @@ namespace EDUHOME.Controllers
                 return View();
             }
 
-            return RedirectToAction("index" , "home");
+            if (string.IsNullOrEmpty(model.RetunUrl))
+                return RedirectToAction("index", "home");
+
+            return Redirect(model.RetunUrl);
+
         }
 
         public async Task<IActionResult> Logout()

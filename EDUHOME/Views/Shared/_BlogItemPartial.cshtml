@@ -3,18 +3,18 @@
 <div class="col-md-4 col-sm-6 col-xs-12">
     <div class="single-blog mb-60">
         <div class="blog-img">
-            <a asp-controller ="blogs" asp-action="details" asp-route-id="@Model.Id"><img src="~/assets/images/blog/@Model.ImageUrl" alt="blog"></a>
+            <a asp-controller ="blogs" asp-action="details" asp-route-id="@Model?.Id"><img src="~/assets/images/blog/@Model?.ImageUrl" alt="blog"></a>
             <div class="blog-hover">
                 <i class="fa fa-link"></i>
             </div>
         </div>
         <div class="blog-content">
             <div class="blog-top">
-                <p>By Alex  /  @Model.CreatedAt  /  <i class="fa fa-comments-o"></i> 4</p>
+                <p>By Alex  /  @Model?.CreatedAt  /  <i class="fa fa-comments-o"></i> 4</p>
             </div>
             <div class="blog-bottom">
-                <h2><a asp-controller="blogs" asp-action="details" asp-route-id="@Model.Id">@Model.Title </a></h2>
-                <a asp-controller="blogs" asp-action="details" asp-route-id="@Model.Id">read more</a>
+                <h2><a asp-controller="blogs" asp-action="details" asp-route-id="@Model?.Id">@Model?.Title </a></h2>
+                <a asp-controller="blogs" asp-action="details" asp-route-id="@Model?.Id">read more</a>
             </div>
         </div>
     </div>

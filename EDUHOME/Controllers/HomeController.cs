@@ -30,8 +30,23 @@ namespace EDUHOME.Controllers
                 .Take(3)
                 .ToListAsync();
 
+            var events = await _dbContext.Events
+                .Where(ev => !ev.IsDeleted)
+                .Take(8)
+                .ToListAsync();
+
             var blogModelList = new List<BlogViewModel>();
             var courseList = new List<CourseViewModel>();
+            var eventList = new List<EventViewModel>();
+
+            events.ForEach(ev => eventList.Add(new EventViewModel
+            {
+                Id = ev.Id,
+                Title = ev.Title,
+                StartTime = ev.StartTime,
+                EndTime = ev.EndTime,
+                Venue = ev.Venue,
+            }));
 
             courses.ForEach(course => courseList.Add(new CourseViewModel
             {
@@ -57,6 +72,7 @@ namespace EDUHOME.Controllers
             model.Sliders = slideres;  
             model.Blogs = blogModelList;
             model.Courses = courseList;
+            model.Events = eventList;
 
             return View(model);
         }

@@ -553,6 +553,10 @@
       "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
     },
     {
+      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\style-error-page.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style-error-page.css"
+    },
+    {
       "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
     },
@@ -803,10 +807,6 @@
     {
       "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\slider\\7cf62cca-0f5e-46b2-951e-d6f7fa6a2d15-slider2.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\slider\\7cf62cca-0f5e-46b2-951e-d6f7fa6a2d15-slider2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\004a91bd-7c9e-469d-8205-d7cbe746a034-teacher3.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\teacher\\004a91bd-7c9e-469d-8205-d7cbe746a034-teacher3.jpg"
     },
     {
       "Id": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\21e217c0-fabd-438c-9376-cfb5b76382aa-teacher1.jpg",

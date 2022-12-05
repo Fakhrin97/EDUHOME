@@ -75,7 +75,10 @@ namespace EDUHOME
             app.UseRouting();
 
             app.UseAuthentication();
+
             app.UseAuthorization();
+
+            app.UseStatusCodePagesWithReExecute("/ErrorPages/Error", "?code={0}");
 
             app.UseEndpoints(endpoints =>
             {

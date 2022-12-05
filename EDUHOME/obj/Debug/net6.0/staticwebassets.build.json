@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GmXhbAACf25s20U18h4vYhntwZEyhlqntX4Zwa95hvA=",
+  "Hash": "W3RnT+Ruc7v9FU/YuI/5dpQskiwh+xYx0Htz/GGAFHI=",
   "Source": "EDUHOME",
   "BasePath": "_content/EDUHOME",
   "Mode": "Default",
@@ -2397,6 +2397,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
+      "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\css\\style-error-page.css",
+      "SourceId": "EDUHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\",
+      "BasePath": "_content/EDUHOME",
+      "RelativePath": "assets/css/style-error-page.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\style-error-page.css"
+    },
+    {
       "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\fonts\\et-line.eot",
       "SourceId": "EDUHOME",
       "SourceType": "Discovered",
@@ -3449,23 +3466,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\slider\\7cf62cca-0f5e-46b2-951e-d6f7fa6a2d15-slider2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\004a91bd-7c9e-469d-8205-d7cbe746a034-teacher3.jpg",
-      "SourceId": "EDUHOME",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\",
-      "BasePath": "_content/EDUHOME",
-      "RelativePath": "assets/images/teacher/004a91bd-7c9e-469d-8205-d7cbe746a034-teacher3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\teacher\\004a91bd-7c9e-469d-8205-d7cbe746a034-teacher3.jpg"
     },
     {
       "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\teacher\\21e217c0-fabd-438c-9376-cfb5b76382aa-teacher1.jpg",

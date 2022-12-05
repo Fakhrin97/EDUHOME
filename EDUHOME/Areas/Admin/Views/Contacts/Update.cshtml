@@ -51,6 +51,11 @@
                     <div style="margin-bottom:20px">
                         <img style="width:25px;height:25px" src="~/assets/images/contact/@Model.TelImageUrl">
                     </div>                    
+                    <div class="form-group">
+                        <label asp-for="IsDeleted">IsDeleted</label>
+                        <input asp-for="IsDeleted" placeholder="IsDeleted">
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <a class="btn btn-light" asp-action="Index">Cancel</a>
                 </form>

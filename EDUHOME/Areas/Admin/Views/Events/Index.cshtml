@@ -20,12 +20,12 @@
                             @foreach (var item in Model)
                             {
                                 <tr>
-                                    <td>@(item.Title.Length >20? item.Title.Substring(0,20): item.Title)</td>
+                                    <td>@(item.Title.Length > 20 ? item.Title.Substring(0, 20) : item.Title)</td>
                                     <td style="max-width:250px">@(item.Content.Length > 100 ? item.Content.Substring(0, 100) : item.Content)</td>
                                     <th>
                                         @foreach (var teacher in item.EventTeachers)
                                         {
-                                            @(teacher.Teacher.Name ) <br />
+                                            @(teacher.Teacher.Name) <br />
                                         }
                                     </th>
                                     <td>
@@ -49,3 +49,34 @@
         </div>
     </div>
 </div>
+@section Scripts{
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        let btns = document.querySelectorAll(".forms-sample")
+
+        btns.forEach(btn =>
+
+            btn.addEventListener("submit", function (event) {
+                event.preventDefault();
+                swal({
+                    title: "Are you sure?",
+                    text: "Once deleted, you will not be able to recover this imaginary file!",
+                    icon: "warning",
+                    buttons: true,
+                    dangerMode: true,
+                })
+                    .then((willDelete) => {
+                        if (willDelete) {
+                            btn.submit(),
+                                swal("Poof! Your imaginary file has been deleted!", {
+                                    icon: "success",
+                                });
+                        }
+                        else {
+                            swal("Your imaginary file is safe!");
+                        }
+                    });
+            })); 
+
+    </script>
+}

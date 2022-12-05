@@ -44,7 +44,7 @@
                                         <img src="~/assets/images/teacher/@item.Teacher.Imageurl" alt="speaker">
                                     </div>
                                     <div class="speaker-name">
-                                        <h5>@item.Teacher.Name</h5>
+                                        <h5><a asp-controller="teachers" asp-action="details" asp-route-id="@item.Teacher.Id">@item.Teacher.Name</a></h5>
                                         <p>@item.Teacher.Profession </p>
                                     </div>
                                 </div>

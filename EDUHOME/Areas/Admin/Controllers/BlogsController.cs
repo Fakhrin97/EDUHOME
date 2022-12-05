@@ -78,6 +78,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 Content = existBlog.Content,
                 Reply = existBlog.Reply,
                 ImageUrl = existBlog.ImageUrl,
+                IsDeleted = existBlog.IsDeleted,    
             };
 
             return View(model);
@@ -127,6 +128,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 existBlog.ImageUrl = unicalName;
             }
 
+            existBlog.IsDeleted = model.IsDeleted;
             existBlog.Title = model.Title;
             existBlog.Content = model.Content;
             existBlog.Reply = model.Reply;

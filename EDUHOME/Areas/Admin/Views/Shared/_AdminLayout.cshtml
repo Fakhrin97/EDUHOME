@@ -1,7 +1,7 @@
 ﻿@using Microsoft.AspNetCore.Identity;
 @inject UserManager<User> _userManager;
 @{
-    var user = await _userManager.FindByNameAsync(User?.Identity?.Name);
+    var user = await _userManager.FindByNameAsync(User.Identity.Name);
 }
 
 <!DOCTYPE html>
@@ -51,54 +51,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav navbar-nav-right">
-                    <li class="nav-item dropdown mr-1">
-                        <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
-                            <i class="mdi mdi-message-text mx-0"></i>
-                            <span class="count"></span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
-                            <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
-                            <a class="dropdown-item">
-                                <div class="item-thumbnail">
-                                    <img src="~/admin/images/faces/face4.jpg" alt="image" class="profile-pic">
-                                </div>
-                                <div class="item-content flex-grow">
-                                    <h6 class="ellipsis font-weight-normal">
-                                        David Grey
-                                    </h6>
-                                    <p class="font-weight-light small-text text-muted mb-0">
-                                        The meeting is cancelled
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="dropdown-item">
-                                <div class="item-thumbnail">
-                                    <img src="~/admin/images/faces/face2.jpg" alt="image" class="profile-pic">
-                                </div>
-                                <div class="item-content flex-grow">
-                                    <h6 class="ellipsis font-weight-normal">
-                                        Tim Cook
-                                    </h6>
-                                    <p class="font-weight-light small-text text-muted mb-0">
-                                        New product launch
-                                    </p>
-                                </div>
-                            </a>
-                            <a class="dropdown-item">
-                                <div class="item-thumbnail">
-                                    <img src="~/admin/images/faces/face3.jpg" alt="image" class="profile-pic">
-                                </div>
-                                <div class="item-content flex-grow">
-                                    <h6 class="ellipsis font-weight-normal">
-                                        Johnson
-                                    </h6>
-                                    <p class="font-weight-light small-text text-muted mb-0">
-                                        Upcoming board meeting
-                                    </p>
-                                </div>
-                            </a>
-                        </div>
-                    </li>
+                    @await Component.InvokeAsync("ContactMessage")
                     <li class="nav-item dropdown mr-4">
                         <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center notification-dropdown" id="notificationDropdown" href="#" data-toggle="dropdown">
                             <i class="mdi mdi-bell mx-0"></i>
@@ -152,7 +105,7 @@
                             <img src="~/admin/images/faces/face5.jpg" alt="profile" />
                             <span class="nav-profile-name">@user.FristName</span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">                            
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
                             <a asp-area="default" asp-controller="account" asp-action="logout">
                                 <i class="mdi mdi-logout text-primary"></i>
                                 Logout
@@ -175,80 +128,95 @@
                             <i class="mdi mdi-home menu-icon"></i>
                             <span class="menu-title">Dashboard</span>
                         </a>
-                    </li>
+                    </li>                   
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                            <i class="mdi mdi-circle-outline menu-icon"></i>
-                            <span class="menu-title">UI Elements</span>
-                            <i class="menu-arrow"></i>
-                        </a>
-                        <div class="collapse" id="ui-basic">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Categories" asp-action="Index">Category</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Courses" asp-action="Index">Course</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Sliders" asp-action="Index">Slider</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Teachers" asp-action="Index">Teacher</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Events" asp-action="Index">Event</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Blogs" asp-action="Index">Blog</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Contacts" asp-action="Index">Contact</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="FooterLogo" asp-action="Index">Footer Logo</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="HeaderLogo" asp-action="Index">Header Logo</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="Informations" asp-action="Index">Information</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="FooterContacts" asp-action="Index">Footer Contact</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="UsefulLinks" asp-action="Index">Useful Link</a></li>
-                                <li class="nav-item"> <a class="nav-link" asp-controller="FooterSocialMedias" asp-action="Index">Footer Social Media</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/forms/basic_elements.html">
+                        <a class="nav-link" asp-controller="Categories" asp-action="Index">
                             <i class="mdi mdi-view-headline menu-icon"></i>
-                            <span class="menu-title">Form elements</span>
+                            <span class="menu-title">Category</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/charts/chartjs.html">
-                            <i class="mdi mdi-chart-pie menu-icon"></i>
-                            <span class="menu-title">Charts</span>
+                        <a class="nav-link" asp-controller="Courses" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Course</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/tables/basic-table.html">
-                            <i class="mdi mdi-grid-large menu-icon"></i>
-                            <span class="menu-title">Tables</span>
+                        <a class="nav-link" asp-controller="Sliders" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Slider</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/icons/mdi.html">
-                            <i class="mdi mdi-emoticon menu-icon"></i>
-                            <span class="menu-title">Icons</span>
+                        <a class="nav-link" asp-controller="Teachers" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Teacher</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-                            <i class="mdi mdi-account menu-icon"></i>
-                            <span class="menu-title">User Pages</span>
-                            <i class="menu-arrow"></i>
+                        <a class="nav-link" asp-controller="Events" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Event</span>
                         </a>
-                        <div class="collapse" id="auth">
-                            <ul class="nav flex-column sub-menu">
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2.html"> Login 2 </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/register-2.html"> Register 2 </a></li>
-                                <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen.html"> Lockscreen </a></li>
-                            </ul>
-                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="documentation/documentation.html">
-                            <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-                            <span class="menu-title">Documentation</span>
+                        <a class="nav-link" asp-controller="Blogs" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Blog</span>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Contacts" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Contact</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="FooterLogo" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Footer Logo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="HeaderLogo" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Header Logo</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Informations" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Information</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="FooterContacts" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Footer Contacts</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="UsefulLinks" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Useful Links</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="FooterSocialMedias" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Footer Social Medias</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="ContactMessages" asp-action="index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Contact Messages</span>
+                        </a>
+                    </li>
+
                 </ul>
             </nav>
-        @RenderBody()
+            @RenderBody()
         </div>
         <!-- page-body-wrapper ends -->
     </div>

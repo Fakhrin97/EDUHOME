@@ -1,4 +1,5 @@
-﻿@model HomeViewModel
+﻿@using System.Globalization;
+@model HomeViewModel
 <!-- Background Area Start -->
 <section id="slider-container" class="slider-area">
     <div class="slider-owl owl-theme owl-carousel">
@@ -162,48 +163,53 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-               
-               @*     <div class="single-event mb-35">
-                        <div class="event-date">
-                            <h3><a href="event-details.html">20 <span>June</span></a></h3>
-                        </div>
-                        <div class="event-content text-left">
-                            <div class="event-content-left">
-                                <h4><a asp-controller="Events" asp-action="Details" asp-route-id="">@Model?.Events[0].Title</a></h4>
-                                <ul>
-                                    <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
-                                    <li><i class="fa fa-map-marker"></i>New Yourk City</li>
-                                </ul>
+            @for (int i = 0; i < Model.Events.Count; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="single-event mb-35">
+                            <div class="event-date">
+                                <h3><a asp-controller="Events" asp-action="Details" asp-route-id="@Model.Events[i].Id">@Model.Events[i].StartTime.ToString("dd") <span>@Model.Events[i].StartTime.ToString("MMM",CultureInfo.InvariantCulture)</span></a></h3>
                             </div>
-                            <div class="event-content-right">
-                                <a class="default-btn" href="event-details.html">join now</a>
-                            </div>
-                        </div>
-                    </div>*@
-                
-            </div>
-            <div class="col-md-6 hidden-sm hidden-xs">
-               @*
-                    <div class="single-event mb-35">
-                        <div class="event-date">
-                            <h3><a href="event-details.html">20 <span>June</span></a></h3>
-                        </div>
-                        <div class="event-content text-left">
-                            <div class="event-content-left">
-                                <h4><a asp-controller="Events" asp-action="Details" asp-route-id="">@Model?.Events[1].Title</a></h4>
-                                <ul>
-                                    <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
-                                    <li><i class="fa fa-map-marker"></i>New Yourk City</li>
-                                </ul>
-                            </div>
-                            <div class="event-content-right">
-                                <a class="default-btn" href="event-details.html">join now</a>
+                            <div class="event-content text-left">
+                                <div class="event-content-left">
+                                    <h4><a asp-controller="Events" asp-action="Details" asp-route-id="@Model.Events[i].Id"></a>@Model.Events[i].Title</h4>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i>@Model.Events[i].StartTime.ToString("hh:mm tt") - @Model.Events[i].EndTime.ToString("hh:mm tt")</li>
+                                        <li><i class="fa fa-map-marker"></i>@Model.Events[i].Venue</li>
+                                    </ul>
+                                </div>
+                                <div class="event-content-right">
+                                    <a class="default-btn" asp-controller="Events" asp-action="Details" asp-route-id="@Model.Events[i].Id">join now</a>
+                                </div>
                             </div>
                         </div>
-                    </div>*@
-               
-            </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-md-6 hidden-sm hidden-xs">
+                        <div class="single-event mb-35">
+                            <div class="event-date">
+                                <h3><a asp-controller="Events" asp-action="Details" asp-route-id="@Model.Events[i].Id">@Model.Events[i].StartTime.ToString("dd") <span>@Model.Events[i].StartTime.ToString("MMM",CultureInfo.InvariantCulture)</span></a></h3>
+                            </div>
+                            <div class="event-content text-left">
+                                <div class="event-content-left">
+                                    <h4><a asp-controller="Events" asp-action="Details" asp-route-id="@Model.Events[i].Id">@Model.Events[i].Title</a></h4>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i>@Model.Events[i].StartTime.ToString("hh:mm tt") - @Model.Events[i].EndTime.ToString("hh:mm tt")</li>
+                                        <li><i class="fa fa-map-marker"></i>@Model.Events[i].Venue<li>
+                                    </ul>
+                                </div>
+                                <div class="event-content-right">
+                                    <a class="default-btn" asp-controller="Events" asp-action="Details" asp-route-id="@Model.Events[i].Id">join now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
         </div>
     </div>
 </div>

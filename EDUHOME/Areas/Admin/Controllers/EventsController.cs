@@ -153,6 +153,8 @@ namespace EDUHOME.Areas.Admin.Controllers
                 Reply = existEvent.Reply,   
                 Teachers = teachersSelectedListItem,
                 TeachersId =selecedId,
+                IsDeleted = existEvent.IsDeleted,   
+                
             };
 
             return View(model);
@@ -216,6 +218,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 existEvent.ImageUrl = unicalName;
             }
 
+            existEvent.IsDeleted = model.IsDeleted;
             existEvent.Title = model.Title; 
             existEvent.StartTime = model.StartTime;
             existEvent.EndTime = model.EndTime;

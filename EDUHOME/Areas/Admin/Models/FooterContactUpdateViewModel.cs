@@ -4,6 +4,7 @@ namespace EDUHOME.Areas.Admin.Models
 {
     public class FooterContactUpdateViewModel
     {
+        public bool IsDeleted { get; set; } 
         public int Id { get; set; }
         public string Adress { get; set; }
         public string Number1 { get; set; }

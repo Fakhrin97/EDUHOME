@@ -61,6 +61,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 Email = contact.Email,
                 Website = contact.Website,
                 Adress = contact.Adress,
+                IsDeleted = contact.IsDeleted,
             };
 
             return View(model);
@@ -74,13 +75,14 @@ namespace EDUHOME.Areas.Admin.Controllers
 
             var existContact = await _dbContext.FooterContacts
                  .Where(contact => contact.Id == id)
-                 .FirstOrDefaultAsync();         
+                 .FirstOrDefaultAsync();
 
-            existContact.Adress=model.Adress;
-            existContact.Number1=model.Number1;
-            existContact.Number2=model.Number2;
-            existContact.Email=model.Email;
-            existContact.Website=model.Website;
+            existContact.Adress = model.Adress;
+            existContact.Number1 = model.Number1;
+            existContact.Number2 = model.Number2;
+            existContact.Email = model.Email;
+            existContact.Website = model.Website;
+            existContact.IsDeleted = model.IsDeleted;
 
             await _dbContext.SaveChangesAsync();
 

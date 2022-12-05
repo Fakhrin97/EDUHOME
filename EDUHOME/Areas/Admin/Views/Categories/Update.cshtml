@@ -11,7 +11,12 @@
                         <label asp-for="Name">Name</label>
                         <input asp-for="Name" class="form-control" placeholder="Name">
                         <span asp-validation-for="Name" class="text-danger"></span>
-                    </div>                   
+                    </div> 
+                    <div class="form-group">
+                        <label asp-for="IsDeleted">IsDeleted</label>
+                        <input asp-for="IsDeleted"  placeholder="IsDeleted">
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <a class="btn btn-light" asp-action="Index">Cancel</a>
                 </form>

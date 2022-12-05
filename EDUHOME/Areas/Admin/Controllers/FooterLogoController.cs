@@ -76,6 +76,7 @@ namespace EDUHOME.Areas.Admin.Controllers
             {
                 LogoTitle =footerLogo.LogoTitle,
                 ImageUrl = footerLogo.LogoImgUrl,
+                IsDeleted = footerLogo.IsDeleted,
             };
 
             return View(model);
@@ -94,7 +95,8 @@ namespace EDUHOME.Areas.Admin.Controllers
             var viewModel = new FooterLogoUpdateViewModel
             {
                 LogoTitle= existFooteLogo.LogoTitle,
-                ImageUrl = existFooteLogo.LogoImgUrl
+                ImageUrl = existFooteLogo.LogoImgUrl,
+                IsDeleted = existFooteLogo.IsDeleted,
             };
 
             if (!ModelState.IsValid) return View(viewModel);
@@ -123,6 +125,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 existFooteLogo.LogoImgUrl = unicalName;
             }
 
+            existFooteLogo.IsDeleted = model.IsDeleted;
             existFooteLogo.LogoTitle = model.LogoTitle;
 
             await _dbContext.SaveChangesAsync();

@@ -64,6 +64,7 @@ namespace EDUHOME.Areas.Admin.Controllers
             {
                 Id = id,
                 Name = category.Name,
+                IsDeleted = category.IsDeleted  
             };
 
             return View(model);
@@ -94,6 +95,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 }
             }
 
+            existCategory.IsDeleted = model.IsDeleted;  
             existCategory.Name = model.Name;
 
             await _dbContext.SaveChangesAsync();

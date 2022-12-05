@@ -40,6 +40,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/f/Desktop/EDUHomePROJECT/EDUHOME/Areas/Admin/Views/ContactMessages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdE1lc3NhZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f/Desktop/EDUHomePROJECT/EDUHOME/Areas/Admin/Views/ContactMessages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdE1lc3NhZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/f/Desktop/EDUHomePROJECT/EDUHOME/Areas/Admin/Views/Contacts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -138,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/f/Desktop/EDUHomePROJECT/EDUHOME/Areas/Admin/Views/Informations/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSW5mb3JtYXRpb25zXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/f/Desktop/EDUHomePROJECT/EDUHOME/Areas/Admin/Views/Shared/Components/ContactMessage/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29udGFjdE1lc3NhZ2VcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/f/Desktop/EDUHomePROJECT/EDUHOME/Areas/Admin/Views/Shared/_AdminLayout.cshtml]

@@ -4,6 +4,7 @@ namespace EDUHOME.Areas.Admin.Models
 {
     public class TeacherUpdateViewModel
     {
+        public bool IsDeleted { get; set; } 
         public string Name { get; set; }
         public string Profession { get; set; }
         public string About { get; set; }

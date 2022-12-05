@@ -23,6 +23,11 @@
                         <span asp-validation-for="Reply" class="text-danger"></span>
                     </div>
                     <div class="form-group">
+                        <label asp-for="IsDeleted">IsDeleted</label>
+                        <input asp-for="IsDeleted"  placeholder="IsDeleted">
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="Image">Choose image</label>
                         <input asp-for="Image" class="form-control" placeholder="Sekil secin" accept="image/*">
                         <span asp-validation-for="Image" class="text-danger"></span>

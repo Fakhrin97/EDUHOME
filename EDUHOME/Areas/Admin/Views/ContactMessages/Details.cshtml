@@ -1,0 +1,30 @@
+﻿@model ContactMessage
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Message Table</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Mail</th>
+                                <th>Subject</th>
+                                <th>Message</th>   
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Model.Name</td>
+                                <td>@Model.Email</td>
+                                <td>@Model.Subject</td>
+                                <td>@Model.Message</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

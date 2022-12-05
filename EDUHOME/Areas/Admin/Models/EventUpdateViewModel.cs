@@ -4,6 +4,7 @@ namespace EDUHOME.Areas.Admin.Models
 {
     public class EventUpdateViewModel
     {
+        public bool IsDeleted { get; set; }
         public string Title { get; set; }
         public string Content { get; set; }
         public string Reply { get; set; }

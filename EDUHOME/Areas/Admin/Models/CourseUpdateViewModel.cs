@@ -5,6 +5,7 @@ namespace EDUHOME.Areas.Admin.Models
 {
     public class CourseUpdateViewModel
     {
+        public bool IsDeleted { get; set; } 
         public string Name { get; set; }
         public string Content { get; set; }
         public string About { get; set; }

@@ -109,6 +109,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 Innovation = teacher.Innovation,
                 Communication = teacher.Communication,
                 Imageurl = teacher.Imageurl,
+                IsDeleted = teacher.IsDeleted,  
             };
 
             return View(model);
@@ -143,6 +144,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 Innovation = existTeacher.Innovation,
                 Communication = existTeacher.Communication,
                 Imageurl = existTeacher.Imageurl,
+                IsDeleted = existTeacher.IsDeleted, 
             };
 
             if (!ModelState.IsValid) return View(viewModel);
@@ -171,6 +173,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 existTeacher.Imageurl = unicalName;
             }
 
+            existTeacher.IsDeleted = model.IsDeleted;
             existTeacher.Name = model.Name;
             existTeacher.Profession = model.Profession;
             existTeacher.About = model.About;

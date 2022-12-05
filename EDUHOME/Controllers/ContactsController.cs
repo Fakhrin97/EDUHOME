@@ -32,9 +32,7 @@ namespace EDUHOME.Controllers
 
         [HttpPost]
         public async Task<IActionResult> SendMessage(ContactMessageViewModel contactMessage)
-        {
-           
-
+        {           
             if (!ModelState.IsValid)
                 return View(viewName: nameof(Index), contactMessage);
 

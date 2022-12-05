@@ -1,0 +1,27 @@
+﻿@model List<ContactMessage>
+
+@{
+    var isRadeyMessages = Model.All(message => message.IsRead == true);
+}
+<li class="nav-item dropdown mr-1">
+    <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
+        <i class="mdi mdi-message-text mx-0"></i>
+        <span class=@(isRadeyMessages ? "" :"count")> </span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="messageDropdown">
+        <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+        @foreach (var item in Model)
+        {
+            <a asp-controller="ContactMessages" asp-action="Details" asp-route-id="@item.Id" class="dropdown-item">
+                <div class="item-content flex-grow">
+                    <h6 class="ellipsis font-weight-normal">
+                        @item.Name
+                    </h6>
+                    <p class="font-weight-light small-text text-muted mb-0">
+                        @(item.Message.Length > 25 ? item.Message.Substring(0, 25) : item.Message)
+                    </p>
+                </div>
+            </a>
+        }
+    </div>
+</li>

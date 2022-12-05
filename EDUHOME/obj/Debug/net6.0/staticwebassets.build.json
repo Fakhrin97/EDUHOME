@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iPdFo99z9yP5tAV3Ix4AQd41cLkycJictsskjWaAbIo=",
+  "Hash": "GmXhbAACf25s20U18h4vYhntwZEyhlqntX4Zwa95hvA=",
   "Source": "EDUHOME",
   "BasePath": "_content/EDUHOME",
   "Mode": "Default",
@@ -3279,6 +3279,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\course\\f0d85381-7085-4b69-9d33-aaea28607c26-course8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\event\\94d6e5c6-916b-4a21-bba0-52c39e848774-event5.jpg",
+      "SourceId": "EDUHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\",
+      "BasePath": "_content/EDUHOME",
+      "RelativePath": "assets/images/event/94d6e5c6-916b-4a21-bba0-52c39e848774-event5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\event\\94d6e5c6-916b-4a21-bba0-52c39e848774-event5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\event\\f30c94cd-afda-40e1-b663-013b6ea0190b-event11.jpg",
+      "SourceId": "EDUHOME",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\",
+      "BasePath": "_content/EDUHOME",
+      "RelativePath": "assets/images/event/f30c94cd-afda-40e1-b663-013b6ea0190b-event11.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\event\\f30c94cd-afda-40e1-b663-013b6ea0190b-event11.jpg"
     },
     {
       "Identity": "C:\\Users\\f\\Desktop\\EDUHomePROJECT\\EDUHOME\\wwwroot\\assets\\images\\footerlogo\\58f7eb52-151a-421a-afb3-2707c6daa38a-logo2.png",

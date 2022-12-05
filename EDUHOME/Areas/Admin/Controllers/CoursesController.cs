@@ -52,6 +52,7 @@ namespace EDUHOME.Areas.Admin.Controllers
         {
             var categories = await _dbContext.Categories
                 .Where(categorie => !categorie.IsDeleted)
+                .Include(categorie => categorie.Courses)
                 .ToListAsync();
 
             var categoriesSelectedListItem = new List<SelectListItem>();
@@ -65,9 +66,11 @@ namespace EDUHOME.Areas.Admin.Controllers
 
             if (!ModelState.IsValid) return View(viewModel);
 
-            var ecistCategoy = categories.Where(category => category.Name == model.Name);
+            var ecistCourse = await _dbContext.Courses
+                .Where(course => course.Name == model.Name)
+                .FirstOrDefaultAsync();
 
-            if (ecistCategoy != null)
+            if (ecistCourse != null)
             {
                 ModelState.AddModelError("", "Bu Add Artiq Kurs Movcuddur");
                 return View(viewModel);
@@ -147,6 +150,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 ImageUrl = course.ImageUrl,
                 CategoryId = course.CategoryId,
                 Categories = categoriesSelectedListItem,
+                IsDeleted = course.IsDeleted,
 
             };
 
@@ -181,12 +185,17 @@ namespace EDUHOME.Areas.Admin.Controllers
 
             if (!ModelState.IsValid) return View(viewModel);
 
-            var theSameNAmeCourse = await _dbContext.Courses.Where(course => course.Name == model.Name).FirstOrDefaultAsync();
-
-            if (theSameNAmeCourse != null)
+            if (existCourse.Name != model.Name)
             {
-                ModelState.AddModelError("", "Bu Add Artiq Kurs Movcuddur");
-                return View(viewModel);
+                var ecistCourse = await _dbContext.Courses
+                    .Where(course => course.Name == model.Name)
+                    .FirstOrDefaultAsync();
+
+                if (ecistCourse != null)
+                {
+                    ModelState.AddModelError("", "Bu Add Artiq Kurs Movcuddur");
+                    return View(viewModel);
+                }
             }
 
             if (model.Image != null)
@@ -213,6 +222,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 existCourse.ImageUrl = unicalName;
             }
 
+            existCourse.IsDeleted = model.IsDeleted;
             existCourse.Name = model.Name;
             existCourse.Content = model.Content;
             existCourse.About = model.About;

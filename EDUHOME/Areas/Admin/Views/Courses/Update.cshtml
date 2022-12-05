@@ -86,6 +86,11 @@
                         <img src="~/assets/images/course/@Model.ImageUrl">
                     </div>
                     <div class="form-group">
+                        <label asp-for="IsDeleted">IsDeleted</label>
+                        <input asp-for="IsDeleted">
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="CategoryId">Category</label>
                         <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control" placeholder="Category"></select>
                         <span asp-validation-for="CategoryId" class="text-danger"></span>

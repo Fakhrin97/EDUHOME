@@ -116,6 +116,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 Number = contact.ContactNumber,
                 TelImageUrl = contact.ContactNumberImageUrl,
                 Message = contact.Message,
+                IsDeleted = contact.IsDeleted,
             };
 
             return View(model);
@@ -214,6 +215,7 @@ namespace EDUHOME.Areas.Admin.Controllers
                 existContact.WebsiteImageUrl = unicalName;
             }
 
+            existContact.IsDeleted = model.IsDeleted;
             existContact.Message = model.Message;
             existContact.Address = model.Address;
             existContact.Website = model.Website;

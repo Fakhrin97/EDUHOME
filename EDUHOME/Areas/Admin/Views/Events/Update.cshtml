@@ -8,6 +8,11 @@
                 <form class="forms-sample" method="post" asp-action="Update" enctype="multipart/form-data">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
+                        <label asp-for="IsDeleted">IsDeleted</label>
+                        <input asp-for="IsDeleted">
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
                         <label asp-for="Title">Title</label>
                         <input asp-for="Title" class="form-control" placeholder="Title">
                         <span asp-validation-for="Title" class="text-danger"></span>
@@ -36,8 +41,7 @@
                         <label asp-for="EndTime">EndTime</label>
                         <input asp-for="EndTime" class="form-control" placeholder="EndTime">
                         <span asp-validation-for="EndTime" class="text-danger"></span>
-                    </div>
-                  
+                    </div>                  
                     <div class="form-group">
                         <label asp-for="Image">Image</label>
                         <input asp-for="Image" class="form-control" placeholder="Sekil secin" accept="image/*">
@@ -50,7 +54,7 @@
                         <label asp-for="TeachersId">Teachers</label>
                         <select asp-for="TeachersId" asp-items="Model.Teachers" class="form-control" placeholder="Teachers"></select>
                         <span asp-validation-for="TeachersId" class="text-danger"></span>
-                    </div>
+                    </div>                   
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>
                     <a class="btn btn-light" asp-action="Index">Cancel</a>
                 </form>

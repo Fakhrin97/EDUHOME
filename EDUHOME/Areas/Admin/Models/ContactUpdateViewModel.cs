@@ -2,6 +2,7 @@
 {
     public class ContactUpdateViewModel
     {
+        public bool IsDeleted { get; set; }
         public string Message { get; set; }
         public string Address { get; set; }
         public string? AddressImageUrl { get; set; }

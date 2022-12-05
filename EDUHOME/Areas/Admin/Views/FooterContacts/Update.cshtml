@@ -4,9 +4,14 @@
     <div class="col-sm-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Update Information</h4>
+                <h4 class="card-title">Update Footer Contact</h4>
                 <form class="forms-sample" method="post" asp-action="Update" >
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="IsDeleted">IsDeleted</label>
+                        <input asp-for="IsDeleted" placeholder="IsDeleted">
+                        <span asp-validation-for="IsDeleted" class="text-danger"></span>
+                    </div>
                     <div class="form-group">
                         <label asp-for="Adress">Adress</label>
                         <input asp-for="Adress" class="form-control" placeholder="Adress">
